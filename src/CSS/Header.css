@@ -1,0 +1,98 @@
+/* Home Section */
+
+
+/* #home-section {
+  height: 650px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+} */
+
+@keyframes animatedBackground {
+  0% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 110% 110%;
+  }
+}
+
+#home-section .item-1, #home-section .item-2, #home-section .item-3 {
+  position: relative;
+height: 650px;
+width: 100%;
+padding: 0;
+margin: 0;
+animation: animatedBackground 18s infinite alternate;
+background-repeat: no-repeat;
+background-size: 110%;
+background-position: 0px;
+background-color: #e5e5e5;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+display: table;
+}
+
+#home-section .item-1 {
+background-image: url(../Images/bg/homeImage.jpg);
+}
+
+#home-section .item-2 {
+background-image: url(../Images/bg/homeImage2.jpg);
+}
+
+#home-section .item-3 {
+background-image: url(../Images/bg/homeImage3.jpg);
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(173, 148, 190, 0.267);
+}
+
+#home-section .text-area {text-align: center;
+padding-bottom: 140px;
+}
+
+#home-section h1, h5 {
+font-family: 'Playfair Display', serif;
+color: #fff;
+font-size: 75px;
+font-weight: 600;
+}
+
+@keyframes fadein {
+ from {opacity: 0;} 
+ to {opacity: 1;}
+}
+
+#home-section h1 {
+  animation: fadein 4s;
+}
+
+/* #home-section p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 10px auto 0;
+    padding: 10px 80px;
+} */
+
+.btn-custom {
+top: 100px;
+}
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom.focus .btn-custom:active, .btn-custom.active {
+color: #fff;
+outline: none;
+outline-offset: none;
+background-image: linear-gradient(to bottom right, #F09819 0%, #EDDE5D 100%);
+transition: all 0.5s linear;
+}

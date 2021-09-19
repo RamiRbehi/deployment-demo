@@ -1,0 +1,80 @@
+#portfolio {
+padding: 0 0 100px 0;
+font-size: 18px;
+background: #f4f2f5;
+}
+
+.portfolio-title {
+  background-image: url(../Images/bg/portfolio-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding-top: 220px;
+    text-align: center;
+    
+}
+
+.portfolio-title h2, .portfolio-title p {
+  color: #fff;
+}
+
+.portfolio-title h2 {
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.portfolio-title p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+/* .image-small {
+  width: 100%;
+} */
+
+.image-small .image-large {
+  position:absolute;
+  overflow: hidden;
+  margin: 0;
+}
+
+.hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background: linear-gradient(
+        to top left,
+        rgba(83, 20, 103, 0.1) 0%,
+        rgba(83, 20, 103, 0.3) 100%
+      );
+    padding: 20% 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.image-large .hover-text > p {
+    opacity: 0;
+    color: #fff;
+    -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+    transition: all 0.3s;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.image-large:hover .hover-text > p {
+    opacity: 1;
+  -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.image-large:hover .hover-text {
+    opacity: 1;
+}

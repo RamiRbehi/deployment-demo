@@ -1,15 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import "./App.css"
+import Navigation from './Components/Navigation.jsx';
+import Header from './Components/Header.jsx';
+import Apropos from './Components/Apropos';
+import Service from './Components/Service.jsx';
+import Portfolio from './Components/Portfolio.jsx';
+import Témoignages from './Components/Témoignages.jsx';
+import Contact from './Components/Contact.jsx';
+import ScrollTopArrow from './Components/ScrollTopArrow';
+// import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import JsonData from "./data/data.json";
+import "./CSS/ScrollTopArrow.css";
+import SmoothScroll from 'smooth-scroll';
+
+export const scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 1000,
+  speedAsDuration: true,
+});
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        Deployment is happening... I hope!!
-      </header>
-    </div>
-  );
+ 
+
+  const [landingPageData, setLandingPageData] = useState({});
+  useEffect(() => {
+    setLandingPageData(JsonData)
+  }, []);
+
+ 
+  return <div>
+ {/* <Router> */}
+ <Navigation/>
+ <Header data={landingPageData.Acceuil}/>
+ <Apropos data={landingPageData.About} />
+ <Service data={landingPageData.Services}/>
+ <Portfolio data={landingPageData.Portfolio}/>
+ <Témoignages data={landingPageData.Témoignages}/>
+ <Contact data={landingPageData.Contact} />
+ <ScrollTopArrow/>
+ {/* </Router> */}
+
+  </div>
+
+ 
 }
 
 export default App;

@@ -1,0 +1,108 @@
+{
+    "Acceuil": {
+        "quote" : "L'amour est tendance",
+        "Title1": "Bienvenue chez Queen Park",
+        "Title2": "Seulement les Grands Evénements",
+        "Title3": "Seulement les Meilleurs Endroits",
+        "Paragraph": "Un espace magnifique prestigieux et différent pour des fêtes magnifiques et différentes. Choisissez ce qui est à votre image pour célébrer votre mariage, fiançailles, Les espaces de Queen Park accueille vos cérémonies et vous garanti des moments inoubliables."
+    },
+    "About": {
+        "titleH2": "Plus qu'une agence de mariage",
+        "titleH3": "Pourquoi nous choisir?",
+        "paragraphH2": "Les rêves de mariage prennent vie à Queen Park avec des fleurs somptueuses, des animations de mariage en direct, des tables de réception élégamment décorées, des avant-premières de mode impressionnantes, une décoration de table décadente et des bonbons de mariage à déguster.",
+        "paragraphH3": "Les invités auront l'occasion de rencontrer les meilleurs en matière de mariage, notamment des photographes, des vidéastes, des animateurs de mariage, des experts en beauté, des boulangeries, des planificateurs de mariage de célébrités, des experts en voyages et en les voyage de noces."
+    },
+    "Services": {
+        "serviceH2": "Nos Services",
+        "serviceIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.",
+        "servicesList": [
+            {
+            "icon": "fas fa-utensils",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fas fa-tags",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fab fa-sketch",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fas fa-photo-video",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        }
+    ]
+    },
+    "Portfolio": {
+        "itemData": [
+        {
+        "img": "/images/PortfolioImages/champion-small.jpg",
+        "imgB": "/images/PortfolioImages/champion-large.jpg",
+        "title": "champion",
+        "imgDesc": "Limou'queen a assuré le transport du champion olympique mohamed khalil jendoubi 🥈  de l'aéroport Tunis Carthage."
+        },
+        {
+          "img": "/images/PortfolioImages/captain-small.jpg",
+          "imgB": "/images/PortfolioImages/captain-large.jpg",
+          "title": "captain",
+          "imgDesc": "دلل عروستك مع سيارة Limou'queen - ليموكوين"
+        },
+        {
+          "img": "/images/PortfolioImages/shamTroop-small.jpg",
+          "imgB": "/images/PortfolioImages/shamTroop-large.jpg",
+          "title": "sham",
+          "imgDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua."
+
+        },
+        {
+          "img": "/images/PortfolioImages/limoQueen-small.jpg",
+          "imgB": "/images/PortfolioImages/limoQueen-large.jpg",
+          "title": "limou",
+          "imgDesc": "Limou'queen  propose ses services haut de gamme de location de limousine en Tunisie. Mariages, anniversaires, transferts aéroports, gares, ports, discothèques, visites guidées, transferts professionnels, sécurité rapprochée avec chauffeur professionnel."
+        },
+        {
+          "img": "/images/PortfolioImages/tunivision-small.jpg",
+          "imgB": "/images/PortfolioImages/tunivision-large.jpg",
+          "title": "Tunivision",
+          "imgDesc": "Team building des bureaux nationaux Tunivisions Foundation chez nous. "
+        },
+        {
+          "img": "/images/PortfolioImages/farhatLamor-small.jpg",
+          "imgB": "/images/PortfolioImages/farhatLamor-large.jpg",
+          "title": "Salle Farhat Lamor",
+          "imgDesc": "فرحة العمر"
+        }
+    ],
+        "portfolioTitle": "Portfolio",
+        "portfolioDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua."
+    },
+    "Témoignages": [
+        {
+            "img": "/images/Témoignages/ZAZAshow.jpg",
+            "text": "بصراحة حاجة تفتق علخر",
+            "name": "Zaza Show"
+        },
+        {
+            "img": "/images/Témoignages/Anis-Ltaif.jpg",
+            "text": "كنت سعيد برشة اني غنيت في هالفضاء الحلو",
+            "name": "Anis Ltaief"
+        },
+        {
+            "img": "/images/Témoignages/Anis-Ltaif.jpg",
+            "text": "كنت سعيد برشة اني غنيت في هالفضاء الحلو",
+            "name": "Fulen ben Flen"
+        }
+    ],
+    "Contact": {
+        "address": "MC 34 Route Mrornag Ben Arous 2090",
+        "email": "info@queenpark.tn",
+        "phone": "79 352 153 - 54 419 595 - 58 465 249",
+        "facebook": "https://www.facebook.com/QueenParkTunisie",
+        "instagram": "https://www.instagram.com/queenparktunisie/?fbclid=IwAR23O_kajXww-UWlcrVizdKZ2GpC_8Qwcq4p2RXYY0J6QQQj6swOP7XApPE"
+    }
+}

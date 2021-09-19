@@ -1,0 +1,132 @@
+#contact {
+    padding: 100px 0 60px;
+    /* background: linear-gradient(to bottom right, #7f678c 0%, #6f1a89 100%); */
+    background-color: #f5f4f6;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Montserrat', sans-serif;
+    /* background: url(../Images/bg/contact.png);
+    background-repeat: no-repeat;
+    background-position-y: center; */
+    position: relative;
+}
+
+.flowerBG{
+    vertical-align: top;
+    user-select: none;
+    height: auto;
+    max-width: 100%;
+    position: absolute;
+}
+
+#contact .contact-title {
+    margin-bottom: 40px;
+    z-index: 555;
+}
+
+#contact .contact-title p, h2, h3, #contact p, .item span, #contact .social-media i {
+    color: #373737;
+} 
+
+#contact h2, #contact h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+#contact .contact-title p {
+    font-size: 16px;
+}
+
+#contact h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+#contact h3 {
+    margin-top: 80px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+#contact  form {
+    padding-top: 20px;
+}
+
+#contact .text-danger {
+    text-align: left;
+}
+
+#contact .submit-button {
+    margin: 30px 0;
+}
+
+.info {
+    font-size: 16px;
+    float: left;
+    margin-left: 90px;
+}
+
+#contact .item {
+    margin: 20px 0;
+}
+
+#contact .item span {
+  margin-bottom: 10px;
+  display: block;
+font-weight: 600;
+}
+
+#contact .item i {
+    margin-right: 10px;
+  }
+
+#contact .social-media {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#contact .social-media ul li {
+    display: inline-block;
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+#contact .social-media i {
+    padding: 12px 0;
+    transition: all 0.3s;
+}
+
+.social-media i:hover {
+    transform: translateY(-4px);
+    transition: 0.3s;
+  }
+
+  /* GoogleMap */
+
+#mapouter h3 {
+    padding-left: 100px;
+}
+
+iframe  {
+    height: 500px;
+    width: 1150px;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    margin: 20px 0 0 100px;
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 70px;
+    color: #373737;
+}
+#footer a {
+    text-decoration: none;
+    color: #373737;
+}

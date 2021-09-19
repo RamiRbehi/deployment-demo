@@ -1,0 +1,32 @@
+.back-to-top {
+    position: fixed;
+    width: 20px;
+    left: 1200px;
+    bottom: 20px;
+    align-items: center;
+    height: 20px;
+    justify-content:left;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    transform: translateX(130%);
+    opacity: 0.5;
+    background-image: linear-gradient(to bottom right, #F09819 0%, #EDDE5D 100%);
+    color: #fff;
+}
+
+
+.back-to-top:hover {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }    
+    100% {
+        opacity: 0.5;
+    }
+}
+

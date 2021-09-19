@@ -1,0 +1,165 @@
+#about {padding: 100px 0;
+background-color: #f5f4f6;}
+
+.about-title  {
+    height: 400px;
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+#about h2, h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+#about p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+} 
+
+#about h2 {position: relative;
+margin-bottom: 15px;
+padding-bottom: 15px;
+
+font-weight: 600;
+font-size: 48px;
+text-transform: uppercase;
+text-align: center;
+}
+
+#about .about-image {width: 500px;
+margin-top: 10px;
+background: #fff;
+border-right: 0;
+box-shadow: 0 0 50px rgba(0,0,0,0.06);
+filter: grayscale(var(--value, 100%)); --value:80%;}
+
+#about .about-intro {line-height: 22px;
+margin: 30px 0;
+color: #8d8d8d;
+line-height: 1.5;}
+
+/* Cards */
+
+.cards {
+    padding-top: 30px;
+}
+
+.flip-card {
+    position: relative;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border: 1px solid #f1f1f1;
+}
+
+.flip-card-front h5 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.flip-card-back h5 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #1a1919;
+}
+
+.flip-card-inner {
+    position: relative;
+    max-width: 300px;
+    max-height: 300px;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rbga(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.flip-card-back {
+    background-color: #fff;
+    transform: rotateY(180deg);
+    padding: 20px;
+}
+
+.flip-card-back img {
+    z-index: 5;
+    width: 250px;
+    height: 250px;
+}
+
+/* CountUp */
+
+.counter-up {
+    padding-top: 30px;
+}
+
+.counter-content {
+    position: relative;
+    align-items: center;
+    flex-flow: column;
+    display: flex;
+    padding: 30px;
+    vertical-align: baseline;
+    
+}
+
+.counter-wrapper::after {
+    content: " ";
+    display: table;
+    position: absolute;
+    top: 55%;
+    right: 0;
+    width: 1px;
+    height: 65%;
+    background-color: rgba(0,0,0,0.01);
+    transform: translateY(-50%);
+}
+
+
+.counter-wrapper {
+    font-size: 60px;
+    font-weight: 700;
+    color: #7f678c;
+    line-height: 1.5;
+}
+
+.counter-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #373737;
+    
+}
+

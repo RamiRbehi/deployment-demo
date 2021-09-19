@@ -1,0 +1,68 @@
+#temoignages {
+    padding: 100px, 0;
+    background: #eeeaf0;
+}
+
+#temoignages i {
+    color: #e6e6e6;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.temoignage-title {
+    background-image: url(../Images/bg/temoignage-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.temoignage-title h2 {
+    position: relative;
+    margin-bottom: 15px;
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #fff;
+  }
+
+.temoignage {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding: 100px;
+}
+
+.image {
+    float: left;
+    margin-right: 15px;
+}
+
+.image, .image img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.content {
+    position: relative;
+    overflow: hidden;
+}
+
+.content p {
+    margin-bottom: 0;
+  font-size: 14px;
+  font-style: italic;
+  color: #000;
+}
+
+.meta {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #666;
+}

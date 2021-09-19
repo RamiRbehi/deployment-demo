@@ -1,0 +1,56 @@
+#services {
+padding: 0 0 100px 0;
+background: #f4f2f5;
+}
+
+.service-title{
+    background-image: url(../Images/bg/services-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding-top: 220px;
+}
+
+
+#services h2 {
+color: #fff;
+margin-bottom: 30px;
+font-family: 'Playfair Display', serif;
+font-weight: 600;
+font-size: 48px;
+text-align: center;}
+
+.section-title, p {
+    color: #fff;
+    font-weight: 500;
+}
+    
+
+#services .service-desc {margin: 10px 10px 20px;
+margin-bottom: 40px;}
+
+.services-types {
+    padding-top: 100px;
+}
+
+
+#services i {
+font-size: 38px;
+width: 120px;
+height: 120px;
+padding: 35px 0;
+background: linear-gradient(to top right, #7f678c 0%, #6f1a89 100%);
+border-radius: 50%;
+color: #fff;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);}
+
+#services {
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.service-desc h3 + p { 
+    color: #373737;
+}
