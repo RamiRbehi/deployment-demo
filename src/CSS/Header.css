@@ -60,7 +60,7 @@ background-image: url(../Images/bg/homeImage3.jpg);
 padding-bottom: 140px;
 }
 
-#home-section h1, h5 {
+#home-section h1 h5 {
 font-family: 'Playfair Display', serif;
 color: #fff;
 font-size: 75px;
