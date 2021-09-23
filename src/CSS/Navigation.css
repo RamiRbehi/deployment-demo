@@ -3,6 +3,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   font-weight: 600;
+  width: 100%;
 }
 .navbar {
     background: rgba(26, 25, 25, 0.1);

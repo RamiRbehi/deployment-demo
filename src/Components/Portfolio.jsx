@@ -19,7 +19,7 @@ function srcset(image, size, rows = 1, cols = 1) {
     },
     imageList: {
       width: 1000,
-      height: 500,
+      height: 400,
       paddingTop: 100,
       overflow: 'hidden',
       position: 'relative',

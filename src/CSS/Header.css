@@ -1,12 +1,12 @@
 /* Home Section */
 
 
-/* #home-section {
-  height: 650px;
+#home-section {
+  /* height: 650px; */
   width: 100%;
-  padding: 0;
-  margin: 0;
-} */
+  /* padding: 0;
+  margin: 0; */
+}
 
 @keyframes animatedBackground {
   0% {

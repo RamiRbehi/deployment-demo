@@ -11,7 +11,7 @@ return <div id="services" className="text-center">
             <div className="row services-types">
                 {props.data ? 
                 props.data.servicesList.map((obj, id) => (
-                    <div key={id} className="col-md-4">
+                    <div key={id} className="col-md-6">
                         <i className={obj.icon}></i>
                         <div className="service-desc">
                             <h3>{obj.name}</h3>

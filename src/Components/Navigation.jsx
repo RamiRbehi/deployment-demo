@@ -21,8 +21,8 @@ function Navigation() {
   
     window.addEventListener("scroll", changeBackground);
 
-    return <div>
-        <Navbar collapseOnSelect
+  return <div>
+    <Navbar collapseOnSelect
     id="menu"
     expand="lg" 
     fixed="top"

@@ -1,24 +1,14 @@
-@media screen and (max-width: 400px) {
-    /* #features {
-      padding: 20px;
-      width: 111%;
-    } */
+@media screen and (max-width: 768px) {
+    #home-section,
     #menu,
     #about,
     #services,
     #testimonials,
     #portfolio,
     #contact {
-      width: 111%;
+      max-width: 100vw;
     }
-  
-    #portfolio {
-      width: 110%;
+    iframe {
+        max-width: 70vw;
     }
   }
-
-
-
-  /* .back-to-top {
-
-  } */
