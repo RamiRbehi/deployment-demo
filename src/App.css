@@ -11,4 +11,10 @@
     iframe {
         max-width: 70vw;
     }
+    #mapouter{
+      margin-left: -60px;
+    }
+    .info {
+        left: 50px;
+      }
   }
