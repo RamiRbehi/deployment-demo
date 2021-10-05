@@ -83,19 +83,14 @@
     },
     "Témoignages": [
         {
-            "img": "/images/Témoignages/ZAZAshow.jpg",
-            "text": "بصراحة حاجة تفتق علخر",
-            "name": "Zaza Show"
+            "img": "images/Témoignages/ZAZAshow.jpg",
+            "vid": "videos/ZAZA Show.mp4",
+            "name" : "ZAZA Show"
         },
         {
-            "img": "/images/Témoignages/Anis-Ltaif.jpg",
-            "text": "كنت سعيد برشة اني غنيت في هالفضاء الحلو",
+            "img": "images/Témoignages/Anis-Ltaif.jpg",
+            "vid": "videos/Test.mp4",
             "name": "Anis Ltaief"
-        },
-        {
-            "img": "/images/Témoignages/Anis-Ltaif.jpg",
-            "text": "كنت سعيد برشة اني غنيت في هالفضاء الحلو",
-            "name": "Fulen ben Flen"
         }
     ],
     "Contact": {

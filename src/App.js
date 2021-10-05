@@ -8,7 +8,6 @@ import Portfolio from './Components/Portfolio.jsx';
 import Témoignages from './Components/Témoignages.jsx';
 import Contact from './Components/Contact.jsx';
 import ScrollTopArrow from './Components/ScrollTopArrow';
-// import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import JsonData from "./data/data.json";
 import "./CSS/ScrollTopArrow.css";
 import SmoothScroll from 'smooth-scroll';
@@ -30,7 +29,6 @@ function App() {
 
  
   return <div>
- {/* <Router> */}
  <Navigation/>
  <Header data={landingPageData.Acceuil}/>
  <Apropos data={landingPageData.About} />
@@ -39,7 +37,6 @@ function App() {
  <Témoignages data={landingPageData.Témoignages}/>
  <Contact data={landingPageData.Contact} />
  <ScrollTopArrow/>
- {/* </Router> */}
 
   </div>
 
