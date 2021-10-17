@@ -17,4 +17,16 @@
     .info {
         left: 50px;
       }
+    .vid {
+      width: 300px;
+      height: 200px;
+      top: 50%;
+    left: 50%;
+    transform: translate(-10%, 10%)
+    }
+    .cards {
+      top: 50%;
+      left: 50%;
+      transform: translate(10%, 5%);
+    }
   }

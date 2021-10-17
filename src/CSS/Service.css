@@ -1,6 +1,8 @@
 #services {
 padding: 0 0 100px 0;
 background: #f4f2f5;
+font-weight: 500;
+padding: 5px 0;
 }
 
 .service-title{
@@ -45,11 +47,6 @@ background: linear-gradient(to top right, #7f678c 0%, #6f1a89 100%);
 border-radius: 50%;
 color: #fff;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);}
-
-#services {
-    font-weight: 500;
-    padding: 5px 0;
-}
 
 .service-desc h3 + p { 
     color: #373737;

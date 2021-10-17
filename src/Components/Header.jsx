@@ -76,25 +76,6 @@ function Header(props) {
   </Carousel>
   </div>
 
-{/* <div id="home-section">
-  <div className="container">
-      <div className="row">
-        <div className="text-area">
-        <h5>{props.data ? props.data.quote : "Loading"}</h5>
-         <h1>{props.data ? props.data.Title : 'Loading'}</h1>
-          <p>{props.data ? props.data.Paragraph : "Loading"}</p>
-         <div className={classes}>
-          <Button 
-          variant="contained" 
-          color="default" 
-          href="#about" 
-          className="btn-custom"><ExpandMoreIcon/></Button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> */}
-
     </div>
       );
 }

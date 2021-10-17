@@ -51,6 +51,7 @@ function Contact(props) {
         name: "",
         email: "",
         subject: "",
+        number: "",
         message: ""
     });
 
@@ -89,6 +90,9 @@ function Contact(props) {
                         <h2>Contact</h2>
                         <p>Veuillez remplir le formulaire ci-dessous pour nous envoyer un e-mail et nous vous répondrons dans les plus brefs délais.</p>
                     </div>
+
+                    
+                    <div>
                     <form name={classes.root} noValidate autoComplete="off" onSubmit={handleSubmit}>
                         <div className="row">
                             <div className="col-md-6">
@@ -117,12 +121,26 @@ function Contact(props) {
                                      <p className="help-block text-danger"></p>
                                 </div>
                             </div> 
-                            <div className="col-md">
+                            <div className="col-md-6">
                                 <div className="form-group">
                                     <TextField type="text"
                                      name="subject"
                                      id="outlined-basic"
                                     label="Votre Sujet"
+                                    variant="filled"
+                                    className="form-control"
+                                    onChange={handleChange}
+                                    spellcheck="true"
+                                    />
+                                    <p className="help-block text-danger"></p>
+                                 </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="form-group">
+                                    <TextField type="text"
+                                     name="number"
+                                     id="outlined-basic"
+                                    label="Votre numero de Téléphone"
                                     variant="filled"
                                     className="form-control"
                                     onChange={handleChange}
@@ -157,6 +175,7 @@ function Contact(props) {
                             Envoyer le message
                         </Button> </div>
                     </form>
+                    </div>
                 </div>
             </div>
 
@@ -208,14 +227,11 @@ function Contact(props) {
                 </div>
                 </div>
             </div>
-
           
         </div>
-        
-       
 
         <GoogleMap />
-            <Footer /> 
+        <Footer /> 
 
 
     </div>

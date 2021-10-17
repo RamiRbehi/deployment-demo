@@ -1,12 +1,8 @@
 #contact {
-    padding: 100px 0 60px;
-    /* background: linear-gradient(to bottom right, #7f678c 0%, #6f1a89 100%); */
+    padding: 100px 0 10px 0;
     background-color: #f5f4f6;
     color: rgba(255, 255, 255, 0.75);
     font-family: 'Montserrat', sans-serif;
-    /* background: url(../Images/bg/contact.png);
-    background-repeat: no-repeat;
-    background-position-y: center; */
     position: relative;
 }
 
@@ -119,11 +115,11 @@ iframe  {
     left: 50%;
     margin: 20px 0 0 100px;
 }
-
+ 
 /* Footer */
 
 #footer {
-    margin-top: 70px;
+    margin-top: 50px;
     color: #373737;
 }
 #footer a {
